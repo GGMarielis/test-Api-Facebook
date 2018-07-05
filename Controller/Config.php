@@ -9,6 +9,7 @@
 		}
 	}	
 	require "Facebook/autoload.php";	
+	
 	$FB = new \Facebook\Facebook([
 		'app_id' => $id,
         'app_secret' => $secret,

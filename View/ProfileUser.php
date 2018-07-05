@@ -1,13 +1,9 @@
 <?php 
 	session_start();
-	require '../Model/AddData.php';
+	//require '../Model/AddData.php';
 	$firstname = $_SESSION['userData']['first_name'];
-	$lastname = $_SESSION['userData']['last_name'];
-	$email = $_SESSION['userData']['email'];	
-	$dato = new AddData();	
-	$dato->CreateBBDD();
-	$dato->CreateTable();
-	$dato->AddUser($firstname, $lastname, $email);
+	$lastname = $_SESSION['userData']['last_name'];	
+	$email = $_SESSION['userData']['email'];		
 ?>
 
 <!DOCTYPE html>
@@ -22,8 +18,7 @@
 			<div class="col-md-4 border border border-success col-md-offset-4" align="center"> 
 				<br><h1>Thanks!</h1>			
 				<img class="rounded-circle" src="<?php echo $_SESSION['userData']['picture']['url'] ?>">
-				<h3><?php echo $firstname?> <?php echo $lastname?></h3>
-				
+				<h3><?php echo $firstname?> <?php echo $lastname?></h3>							
 				<h5> for joining us</h5>
 				<h6>You profile was successfully loaded</h6>
 				<br>

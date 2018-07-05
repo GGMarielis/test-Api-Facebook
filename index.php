@@ -1,5 +1,6 @@
 <?php 
 	session_start();
+	
 	$array_ini = parse_ini_file("config.ini", true);
 	foreach ($array_ini as $key => $value) {				
 		if($key=='URL'){

@@ -8,10 +8,10 @@ pueden introducir sus datos manualmente o a través de facebook.
 Pasos:
 -Agrega el archivo en la carpeta www del servidor local
 -Debes modificar el archivo config.ini donde se incluyen datos de la cuenta
-facebook, y base de datos
+facebook.
 -A través del navegador entrar al localhost, y ejecutar el archivo
 que se encuentra en la carpeta copiando la siguiente dirección
-http://localhost/RetrieveUserProfileFacebook/
+http://localhost/test-Api-Facebook-master/
 
 Requerimientos:
 -Contar con un paquete de servidor local (Windows + Apache + MySQL + PHP)

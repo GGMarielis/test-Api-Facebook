@@ -1,0 +1,21 @@
+
+
+Esta app se creó con el concepto de obtener una base de datos de usuarios,
+los cuales están dispuestos a conocer más sobre los productos ofertados por
+una empresa, donde los clientes llegan a la página de registro, allí
+pueden introducir sus datos manualmente o a través de facebook.
+
+Pasos:
+-Agrega el archivo en la carpeta www del servidor local
+-Debes modificar el archivo config.ini donde se incluyen datos de la cuenta
+facebook, y base de datos
+-A través del navegador entrar al localhost, y ejecutar el archivo
+que se encuentra en la carpeta copiando la siguiente dirección
+http://localhost/RetrieveUserProfileFacebook/
+
+Requerimientos:
+-Contar con un paquete de servidor local (Windows + Apache + MySQL + PHP)
+-Cuenta en facebook for developer
+
+PD: Se podría agregar una clausula donde indique que el usuario ya fue
+registrado si fuera el caso.
